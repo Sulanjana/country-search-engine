@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets//fonts/SanFranciscoFont.otf") format("opentype");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "SF Pro Text", Arial, sans-serif;
+}
+
+code {
+  font-family: "SF Pro Text", Arial, sans-serif;
+}

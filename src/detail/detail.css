@@ -1,0 +1,120 @@
+.container-detail-page {
+  padding: 60px 60px 40px 60px;
+}
+
+button {
+  width: 229px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  background-color: #8362f2;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.48px;
+  text-align: center;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+img {
+  width: 46px;
+  height: 30px;
+}
+
+.title-detail {
+  line-height: 85.92px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 57.28px;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.title-detail img {
+  margin-top: 30px;
+}
+
+.title-detail h1 {
+  margin-bottom: 0;
+}
+
+.desc-detail {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.32px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.desc-detail p {
+  background-color: #8dd4cc;
+  border-radius: 50px;
+  text-align: center;
+  align-content: center;
+  padding: 6px 13px 6px 13px;
+}
+
+.container-location {
+  display: flex;
+  gap: 25px;
+}
+
+.location-region {
+  width: 540px;
+  height: 143px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px #00000005;
+  padding: 2px 20px 2px 20px;
+}
+
+.location-latlong {
+  width: 540px;
+  height: 143px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px #00000005;
+  padding: 2px 20px 2px 20px;
+  background-image: url("../assets/background/globe.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+}
+
+.location-detail {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57.28px;
+  color: #8362f2;
+}
+
+.location-region span {
+  font-weight: bold;
+}
+
+.location-calling-code-currency {
+  margin-top: 10px;
+  width: 580px;
+  border-radius: 5px;
+}
+
+u {
+  color: #8362f2;
+  cursor: pointer;
+}
+
+.countries {
+  background-color: #525252;
+  color: white;
+  width: max-content;
+  height: max-content;
+  padding: 2px 15px 2px 15px;
+  margin: 20px 0px 0px 0px;
+  border-radius: 10px;
+}
